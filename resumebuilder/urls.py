@@ -21,6 +21,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'',include('Main.urls')),
+    url(r'',include('contactform.urls')),
+    url(r'',include('resumecreate.urls')),
 ]
 
 if settings.DEBUG:

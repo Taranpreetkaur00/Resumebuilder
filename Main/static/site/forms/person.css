@@ -1,0 +1,84 @@
+body{
+	padding: 0
+	margin:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container{
+  margin-top: 20px;
+	margin-left: 20px;
+  background: #DCDCDC;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  padding-right: 100px;
+}
+.container label{
+	font-size: 20px;
+	font-weight: 10;
+}
+.container input{
+	width: 300px;
+	height: 20px;
+}
+
+.listdown{
+	width: 15%;
+	-webkit-appearance: menulist-button;
+   height: 30px;
+  }
+  .address input{
+  width: 58%;
+  }
+  .mid-container input{
+  	
+width: 16%;
+  }
+  .back{
+  	float: left;
+  	width: 80px;
+	height: 30px;
+	font-size: 15px;
+   border-radius: 5px;
+   margin-left: 20px;
+
+  }
+  .Save{
+  	background: #d6760f;
+	float: right;
+	height: 30px;
+	font-size: 15px;
+	color:#ffff;
+	border: 1px solid #000;
+	margin-right: 20px;
+  border-radius: 5px;
+}
+  
+#objective{
+  width: 59%;
+  height: 40px;
+}
+#phn{
+  width:28%;
+}
+#lname{
+  width: 20%;
+}

@@ -1,0 +1,89 @@
+body{
+	background: #ffff;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+}
+label{
+	background: pink;
+	display: inline-block;
+	font-size: 18px;	
+}
+input{
+	padding: 10px;
+	display: inline-block;
+}
+.container{
+	background: 	#DCDCDC;
+}
+.container-first{
+	margin-right: 100px;
+	text-align: center;	
+}
+.form-1 input{
+	width: 30%;
+}
+.form-1 label{
+	font-size: 20px;
+	font-weight: 10;
+}
+.form-1 option{
+	width: 40%;
+}
+.listdown{
+	width: 30%;
+	-webkit-appearance: menulist-button;
+   height: 35px;
+}
+.container-second{
+	text-align: center;
+}
+.back{
+	float: left;
+	width: 80px;
+	height: 30px;
+	font-size: 15px;
+	background: none;
+	border-radius: 5px;
+}
+.add_field_button{
+	background: none;
+	height: 30px;
+	font-size: 15px;
+	color:#32a885;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.save{
+	background: #d6760f;
+	float: right;
+	height: 30px;
+	font-size: 15px;
+	color:#ffff;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+#more{
+	display: none;
+}

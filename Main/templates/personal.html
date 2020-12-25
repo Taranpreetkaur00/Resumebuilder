@@ -1,0 +1,68 @@
+{% load static  %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Information</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'site/forms/person.css' %}">
+	<link rel="stylesheet" href="{% static 'back/plugins/datatables-buttons/css/buttons.bootstrap4.min.css' %}">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li> <a href=""> RESUME RECALL </a></li>
+			<li> <a href=""> Choose Template</a></li>
+			<li><a href="">Personal Info</a></li>
+			<li><a href="">Education</a></li>
+ 			<li><a href=""> Expirence</a></li>
+ 			<li><a href=""> Skills</a></li>  
+ 			<li><a href="">Summary</a></li>      
+ 			<li><a href="">Review&Download</a></li> 
+		</ul>
+  
+<hr>
+</nav>
+
+<div class="container">
+		<h1>COMPLETE YOUR RESUME HEADING</h1>
+		<p>Employer will this Information to contact you</p>
+	  <form action="{%url 'personal_add' %}"method="post">
+            {% csrf_token %}
+		<div>
+		<label for="fname">First Name</label>
+		<input type="text" name="fname" id="fname">
+		<label for="lname">Last Name</label>
+		<input type="text" name="lname" id="lname"><br><br>
+		<div class="address">
+		<label for="address">Address</label>
+		<input type="text" name="address">
+		</div><br>
+		<div class="mid-container">
+		<label for="city">City</label>
+		<input type="text" name="city">
+		<label for="pin">Pin Code</label>
+		<input type="text" name="pin">
+		<label for="country">Country</label>
+		<select class="listdown" name="country" id="graduate-m">
+			<option value="India" >India</option>
+			<option value="china" >china</option>
+			<option value="Japan">Japan</option>
+			<option value="America" >America</option>
+		</select>
+		</div><br>
+		<label for="email">E-mail</label>
+		<input type="email" name="email">
+		<label for="phnno">Phone</label>
+		<input type="text" name="phnno" id="phn"><br><br>
+		<label for="objective">Objective</label>
+		<input type="text" name="objective" id="objective"> 
+ 
+		</div><br><br>
+		<a href="/resume" >Back</a>
+		<button class="Save">Save&Next</button>
+	  </form>
+</div>
+
+</body>
+
+
+</html>

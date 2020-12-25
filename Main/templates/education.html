@@ -1,0 +1,35 @@
+{% load static  %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education</title>
+	
+	
+	
+</head>
+<body>
+
+<div class="container">
+	<h1>Education</h1>
+	<p>Add Information your Education backround</p>
+	
+		
+			<form   method="POST">
+				{% csrf_token %}
+				{{ formset.as_p}}
+				
+			<button type="submit" >
+				Save & Add more
+			</button>
+			<a href="" type="button" >Next</a>
+			</form>
+			
+			
+</div>
+	
+
+
+
+
+</body>
+</html>
